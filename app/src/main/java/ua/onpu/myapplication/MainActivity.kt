@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
                 type = "image/jpeg"
                 putExtra(Intent.EXTRA_EMAIL, arrayOf("vladis217lak10372@gmail.com"))
                 putExtra(Intent.EXTRA_SUBJECT, "DigiJED [Kalkatin Vlad]")
-                putExtra(Intent.EXTRA_TEXT, "Посилання на репозиторій із проєктом мобільного додатку: [посилання]")
+                putExtra(Intent.EXTRA_TEXT, "Посилання на репозиторій із проєктом мобільного додатку: [https://github.com/eIIka/Android-apps.git]")
                 putExtra(Intent.EXTRA_STREAM, imageUri)
                 addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             }
